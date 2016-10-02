@@ -13,6 +13,7 @@
 html {
     background-color: #ddd;
     color: #222;
+    font-family: 'Space Mono', monospace;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -314,6 +315,10 @@ img {
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background-color: #adb7b7;
     text-align: center;
 }
