@@ -1,5 +1,6 @@
 require 'httparty'
 require 'nokogiri'
+require 'launchy'
 # require 'pry'
 
 # get page source code
@@ -21,4 +22,5 @@ img_tags_array.map { |i| div << i  }
 
 File.write("index.html", doc.to_html)
 
+Launchy.open("./index.html")
 # Pry.start(binding)
