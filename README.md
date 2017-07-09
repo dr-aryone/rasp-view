@@ -8,10 +8,10 @@ This is a basic implementation of an image crawler developed in Ruby with the fo
  - HTTParty
  - Launchy
 
-If you don't have ruby installed in your environment, [this link](https://www.ruby-lang.org/pt/documentation/installation/) might help.
+If you don't have ruby installed in your environment, [this link](https://www.ruby-lang.org/pt/documentation/installation/) might help. You might also want to install `bundler`.
 
-After installing ruby you can simply type the following in order to install the dependencies:  
- `bundle install`  
+After installing ruby and `bundler` you can simply type the following in order to install the dependencies:  
+  `bundle install`  
 
 
 In order to scrape a website you can simply type the following in a terminal, passing the url of whichever website you want:
