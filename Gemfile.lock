@@ -1,0 +1,25 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.5.1)
+      public_suffix (~> 2.0, >= 2.0.2)
+    httparty (0.15.5)
+      multi_xml (>= 0.5.2)
+    launchy (2.4.3)
+      addressable (~> 2.3)
+    mini_portile2 (2.2.0)
+    multi_xml (0.6.0)
+    nokogiri (1.8.0)
+      mini_portile2 (~> 2.2.0)
+    public_suffix (2.0.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  httparty
+  launchy
+  nokogiri
+
+BUNDLED WITH
+   1.15.1
