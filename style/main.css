@@ -1,0 +1,30 @@
+/* GLOBAL */
+body {
+  background-color: #778899;
+}
+
+/* HEADER */
+.header {
+  background-color: #75B7F6;
+  margin-bottom: 2rem;
+}
+
+/* IMAGES CONTAINER */
+.images-container img {
+  box-shadow: .1rem .1rem .5rem 0;
+  margin: 1rem;
+  max-width: 90%;
+  transition: padding .2s ease-in-out;
+}
+
+.images-container img:hover {
+  padding: .5rem;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #F5F5DC;
+  padding: 1rem;
+  text-align: center;
+}

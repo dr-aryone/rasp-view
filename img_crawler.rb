@@ -15,7 +15,7 @@ parse_page.css('img').map { |i| img_tags_array.push(i) }
 doc = File.open("index.html") { |f| Nokogiri::HTML(f) }
 
 # add images to html page
-div = doc.at('.extracted-imgs')
+div = doc.at('[data-images-container]')
 div.content = ''
 img_tags_array.map { |i| div << i  }
 
