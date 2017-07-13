@@ -6,7 +6,13 @@ body {
 /* HEADER */
 .header {
   background-color: #75B7F6;
+  font-family: 'Righteous', cursive;
   margin-bottom: 2rem;
+}
+
+.header .brand-logo {
+  font-size: 3rem;
+  letter-spacing: .2rem;
 }
 
 /* IMAGES CONTAINER */
@@ -14,6 +20,7 @@ body {
   box-shadow: .1rem .1rem .5rem 0;
   margin: 1rem;
   max-width: 90%;
+  text-align: center;
   transition: padding .2s ease-in-out;
 }
 
